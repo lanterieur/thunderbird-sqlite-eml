@@ -8,7 +8,7 @@ We had an employee require computer reinstall. Her profile was not properly back
 - Find your thunderbird profiles (on windows: %appdata%\Thunderbird\profiles\[profile name])
 - Find your global-messages-db.sqlite. Normally inside your [profile name] folder
 ### Two options
-- Export all tables as js with a tool (I used DB browser for sqlite)
+- Export all tables as json with a tool (I used DB browser for sqlite)
 - Mess with a sqlite3 module for node.
 
 ## How to use
